@@ -41,11 +41,10 @@ Search
 
 ---
 
-## Running the Notebooks
+## Notebooks
 
 All notebooks are designed to run on **Kaggle** (free GPU).
 
-Run notebooks in order:
 1. **Segmentation** — segment videos into clips
 2. **Feature Extraction** — extract features from each modality
 3. **Indexing** — build FAISS / Elasticsearch indexes
