@@ -22,7 +22,7 @@ Feature Extraction
     CLIP feature extraction for segmented objects.ipynb  # Extract CLIP features for detected objects
     Object extraction.ipynb              # Detect and crop objects using YOLOv10
     Object feature extraction.ipynb      # Extract CLIP features from cropped objects
-    Audio extraction.ipynb               # Extract and transcribe audio from video
+    Audio extraction.ipynb               # Extract audio from video
     Audio feature extraction.ipynb       # Extract text features
     OCR extraction.ipynb                 # Extract on-screen text via OCR
 
