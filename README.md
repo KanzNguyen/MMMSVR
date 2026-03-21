@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository contains code for an end-to-end multimodal video retrieval system. The pipeline supports querying large video archives using **text, image, or audio** inputs by integrating semantic search (CLIP, BEiT-3, BLIP-2), object-level search (YOLOv10 + CLIP), OCR-based search, and ASR-based audio search. Results are fused using **Reciprocal Rank Fusion (RRF)** with dynamic temporal weighting.
+This repository contains code for a multimodal video retrieval system. The pipeline supports querying large video archives using **text, image, or audio** inputs by integrating semantic search (CLIP, BEiT-3, BLIP-2), object-level search (YOLOv10 + CLIP), OCR-based search, and ASR-based audio search. Results are fused using **Reciprocal Rank Fusion (RRF)** with dynamic temporal weighting.
 
 ---
 
