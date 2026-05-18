@@ -31,7 +31,8 @@ Indexing
     BLIP2 FAISS Indexing.ipynb           # Build FAISS index from BLIP-2 features
     CLIP FAISS indexing.ipynb            # Build FAISS index from CLIP-ViT-H14 features
     Object indexing.ipynb                # Build FAISS index for object-level features
-    Index audio for elastic search.ipynb # Index ASR transcripts in Elasticsearch
+    Index audio for elasticsearch.ipynb  # Index ASR transcripts in Elasticsearch
+    Index ocr for elasticsearch.ipynb    # Index OCR transcripts in Elasticsearch
     Audio elastic search.ipynb           # Text-based audio search via Elasticsearch
     OCR elastic search.ipynb             # Text-based OCR search via Elasticsearch
 
