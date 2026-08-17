@@ -1,12 +1,14 @@
 # Multimodal Video Retrieval System
 
-**Published at SOICT 2024** (International Symposium on Information and Communication Technology)
+**Published at SOICT 2024** — 📄 [MMMSVR: An Advanced Video Retrieval and Question Answering System](https://link.springer.com/chapter/10.1007/978-981-96-4291-5_11) *(Springer, CCIS)*
 
 ---
 
 ## Overview
 
 This repository contains code for a multimodal video retrieval system. The pipeline supports querying large video archives using **text, image, or audio** inputs by integrating semantic search (CLIP, BEiT-3, BLIP-2), object-level search (YOLOv10 + CLIP), OCR-based search, and ASR-based audio search. Results are fused using **Reciprocal Rank Fusion (RRF)** with dynamic temporal weighting.
+
+> **Scope:** This repository covers the **retrieval** component of the MMMSVR system. The question-answering module described in the paper is not included here.
 
 ---
 
