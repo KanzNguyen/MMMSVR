@@ -55,6 +55,23 @@ All notebooks are designed to run on **Kaggle** (free GPU).
 
 ---
 
+## Results
+
+Retrieval quality on **35 evaluation queries**, comparing each single-modality index against the
+**RRF fusion** of all three. Fusion outperforms every individual model on both metrics.
+
+| Method | MRR ↑ | AP@20 ↑ |
+|---|---|---|
+| CLIP-ViT-H14 | 0.559 | 0.109 |
+| BLIP-2 | 0.381 | 0.083 |
+| BEiT-3 | 0.645 | 0.104 |
+| **RRF fusion (CLIP + BLIP-2 + BEiT-3)** | **0.699** | **0.130** |
+
+> Evaluation uses a **subset of queries** from the AI Challenge HCMC preliminary round. Ground-truth
+> relevance was assigned by the team based on the correct answers known after the competition; the
+> queries are **not redistributed here** due to the competition's data terms, and the official
+> challenge evaluation closed after the competition. Metrics are reported for reference only.
+
 ## Acknowledgements
 
 - [CLIP (OpenAI)](https://github.com/openai/CLIP)
