@@ -13,28 +13,28 @@ This repository contains code for a multimodal video retrieval system. The pipel
 ## Repository Structure
 ```text
 Preprocessing & Segmentation
-    Uniform video segmentation.ipynb     # Segment video into fixed-length clips
-    Video segmentation.ipynb             # Segment video by news story boundaries
+    Uniform_video_segmentation.ipynb     # Segment video into fixed-length clips
+    Video_segmentation.ipynb             # Segment video by news story boundaries
 
 Feature Extraction
-    BEiT3 feature extraction.ipynb       # Extract frame features using BEiT-3
-    BLIP2 feature extraction.ipynb       # Extract frame features using BLIP-2
-    CLIP feature extraction for segmented objects.ipynb  # Extract CLIP features for detected objects
-    Object extraction.ipynb              # Detect and crop objects using YOLOv10
-    Object feature extraction.ipynb      # Extract CLIP features from cropped objects
-    Audio extraction.ipynb               # Extract audio from video
-    Audio feature extraction.ipynb       # Extract text features
-    OCR extraction.ipynb                 # Extract on-screen text via OCR
+    BEiT3_feature_extraction.ipynb       # Extract frame features using BEiT-3
+    BLIP2_feature_extraction.ipynb       # Extract frame features using BLIP-2
+    CLIP_feature_extraction_for_segmented_objects.ipynb  # Extract CLIP features for detected objects
+    Object_extraction.ipynb              # Detect and crop objects using YOLOv10
+    Object_feature_extraction.ipynb      # Extract CLIP features from cropped objects
+    Audio_extraction.ipynb               # Extract audio from video
+    Audio_feature_extraction.ipynb       # Extract text features
+    OCR_extraction.ipynb                 # Extract on-screen text via OCR
 
 Indexing
-    BEiT3 FAISS indexing.ipynb           # Build FAISS index from BEiT-3 features
-    BLIP2 FAISS Indexing.ipynb           # Build FAISS index from BLIP-2 features
-    CLIP FAISS indexing.ipynb            # Build FAISS index from CLIP-ViT-H14 features
-    Object indexing.ipynb                # Build FAISS index for object-level features
-    Index audio for elasticsearch.ipynb  # Index ASR transcripts in Elasticsearch
-    Index ocr for elasticsearch.ipynb    # Index OCR transcripts in Elasticsearch
-    Audio elastic search.ipynb           # Text-based audio search via Elasticsearch
-    OCR elastic search.ipynb             # Text-based OCR search via Elasticsearch
+    BEiT3_FAISS_indexing.ipynb           # Build FAISS index from BEiT-3 features
+    BLIP2_FAISS_indexing.ipynb           # Build FAISS index from BLIP-2 features
+    CLIP_FAISS_indexing.ipynb            # Build FAISS index from CLIP-ViT-H14 features
+    Object_indexing.ipynb                # Build FAISS index for object-level features
+    Index_audio_for_elasticsearch.ipynb  # Index ASR transcripts in Elasticsearch
+    Index_ocr_for_elasticsearch.ipynb    # Index OCR transcripts in Elasticsearch
+    Audio_elastic_search.ipynb           # Text-based audio search via Elasticsearch
+    OCR_elastic_search.ipynb             # Text-based OCR search via Elasticsearch
 
 Search
     main.ipynb                           # Unified search: all modalities + RRF fusion
